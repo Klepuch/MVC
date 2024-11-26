@@ -1,0 +1,11 @@
+class Item:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+# Список товарів (моделювання бази даних)
+items = [
+    Item("Apple", 1.2),
+    Item("Banana", 0.5),
+    Item("Orange", 0.8)
+]
